@@ -1,0 +1,114 @@
+@import 'Variable.scss';
+
+
+.dashborad{
+ 
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+
+}
+
+.dashboradContainer{
+    border-left: 1px solid rgba(0,0,0,0.13);
+    background-color: $light-blue;
+    padding: 3rem 0rem;
+    width: 80%;
+    h2{
+        text-align: center;
+        padding: 1rem;
+        color: rgba(0,0,0,0.677);
+        font-family: $font1;
+        border-bottom: 1px solid rgba(0,0,0,0.677);
+        width: 20%;
+        margin: auto;
+    }
+    .totalAmount{
+ 
+        width: 100%;
+        margin: 1rem auto;
+        text-align: center;
+        padding: 1.30rem;
+        background-color: $primary;
+        color: $white;
+        font-family: $font1;
+    }
+    .dashboradBox{
+        display: flex;
+        justify-content: center;
+        >a{
+            width: 12vmax;
+            height: 12vmax;
+            background-color: rgb(255, 106, 0);
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            padding: 0.5rem;
+            text-decoration: none;
+            color: $white;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                scale: (1.1);
+            }
+          
+            >p{
+                font-size: 1.40vmax;
+                padding: 0.2rem;
+                font-family: $font1;
+                font-weight: 600;
+            }
+
+        }
+        a:first-child{
+            background-color: #002E94
+        }
+        a:last-child{
+           background-color: black;
+        }
+
+    
+    }
+}
+
+.graph-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lineChart{
+  width: 40vmax;
+ margin-left: 3rem;
+  
+}
+.doughnutChart{
+
+width: 30vmax;
+padding: 2vmax;
+}
+
+@media(max-width:600px){
+    .dashborad{
+        flex-direction: column;
+    }
+    .dashboradContainer{
+        width: 100%;
+        h2{
+            width: 40%;
+        }
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .graph-chart{
+        flex-direction: column;
+        padding: 0%;
+    }
+    .lineChart{
+        width: 40vmax;
+    }
+}

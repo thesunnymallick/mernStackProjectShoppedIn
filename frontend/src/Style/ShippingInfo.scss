@@ -1,0 +1,143 @@
+@import 'Variable.scss';
+.shipping-section{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:1rem 0rem
+}
+
+.shippingBox{
+    width: 25vw;
+    height: 90vh;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    background-color: $light-blue;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.623);
+    
+}
+.shippingHeadding{
+  width: 50%;
+  color: rgba(0, 0, 0, 0.733);
+  font: 500 1.3vmax $font1;
+  padding: 1.3vmax;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.300);
+  margin: auto;
+}
+
+.shippingBox>form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2vmax;
+    height: 80%;
+    transition: all 0.5s;
+   
+
+}
+.shoppingFrom>div{
+    
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 0.5vmax;
+        
+      
+    }
+.shoppingFrom>div>input{
+    padding: 1vmax 4vmax;
+    width: 100%;
+    padding-right: 1vmax;
+    outline: none;
+    font: 300 0.9vmax;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color:$black;
+    font: 400 0.9vmax $font2;
+    background-color: $white;
+    border: 1px solid rgba(0, 0, 0, 0.300);
+ }
+ .shoppingFrom>div>select{
+    text-indent: 2vmax;
+    padding: 1vmax;
+    width: 100%;
+    padding-right: 3vmax;
+    outline: none;
+    color:$black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font: 400 0.9vmax $font1;
+    background-color: $white;
+    border: 1px solid rgba(0, 0, 0, 0.300);
+ }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    padding-right: 0%;
+}
+
+.shippingBox>form>div>svg{
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+  margin-right: 2vamx;
+}
+
+.shippingBtn {
+    border: none;
+    background-color:$primary;
+    color: white;
+    font: 300 1vmax "Roboto";
+    width: 100%;
+    padding: 1vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    margin: 2vmax;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: $hover;
+    }
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .shippingBox {
+      width: 100%;
+      height: 95vh;
+    }
+  
+    .shippingHeadding {
+      font: 400 6vw $font1;
+      padding: 5vw;
+    }
+  
+    .shoppingFrom {
+      padding: 11vw;
+    }
+  
+    .shoppingFrom> div > input,
+    .shoppingFrom> div > select {
+      padding: 5vw 10vw;
+      font: 300 4vw $font1;
+    }
+  
+    .shoppingFrom > div > svg {
+      font-size: 10vw;
+      transform: translateX(3vw);
+    }
+  
+    .shippingBtn {
+      font: 300 4vw $font1;
+      padding: 4vw;
+    }
+  }

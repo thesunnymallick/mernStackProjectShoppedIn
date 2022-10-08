@@ -1,0 +1,127 @@
+@import 'Variable.scss';
+
+ .navbar{
+ 
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 2rem;
+    border-bottom: 1px solid black;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        >img{
+            height: 3rem;
+        }
+        >span{
+            display: flex;
+            font-size: 1.30rem;
+            color: $black;
+            font-family: $font2;
+        }
+        a{
+            margin:0  0.7rem;
+            font-size: 1.10rem;
+            color: $black;
+            transition: all 0.3s ease-in-out;
+            font-family: $font1;
+            svg{
+                color: $primary;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    color: $hover;
+                }
+            }
+            &:hover{
+                color: $primary;
+            }
+           
+        }
+   
+    }
+    .search-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $black;
+        width: 100%;
+        max-width: 350px;
+        padding: 5px 16px;
+        border-radius: 20px;
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                flex:1;
+                background: transparent;
+                border: none;
+                outline: none;
+                padding: 5px 15px;
+                font-size: 1rem;
+                &::placeholder{
+                    color: $black;
+                    font-family: $font3;
+                }
+            }
+            button{
+                outline: none;
+                background: none;
+                border: 0;
+                cursor: pointer;
+                svg{
+                    font-size: 1.50rem;
+                    color: $black;
+                }
+            }
+        }
+
+       }
+ }
+
+ @media(max-width:1180px)
+ {
+    .navbar{
+        padding: 1rem;
+        >div{
+            img{
+                height:2rem ;
+            }
+            span{
+               font-size: 1rem;
+            }
+            a{
+                margin:0  0.5rem;
+                font-size: 0.90rem;
+            }
+
+        } 
+        .search-bar{
+            max-width: 255px;
+        }
+    }
+   
+ }
+ @media(max-width:600px){
+
+    .navbar{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        div{
+            padding: 0.23rem 0rem;
+            margin: 0.23rem 0rem;
+        }
+        .search-bar{
+            padding: 0.2rem;
+            max-width: 100%;
+        }
+    }
+    
+
+ }

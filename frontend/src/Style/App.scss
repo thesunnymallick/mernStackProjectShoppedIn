@@ -1,0 +1,121 @@
+@import 'Variable.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    font-family: $font4;
+
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.Title-headding{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:$font1 ;
+    color: $black;
+    font-weight: 400;
+    font-size: 1.50rem;
+    width: 20vmax;
+    padding: 1vmax;
+    border-bottom: 2px solid $light-dark-blue;
+    margin: auto;
+    margin-bottom: 3rem;
+   
+  
+}
+
+
+.slider{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    div{
+        img{
+           
+            width: 100%;
+            height: 80vh;
+            object-fit: cover;
+        }
+    }
+}
+
+
+//speedDail
+ 
+.speedDail{
+    position: fixed;
+    right: 3vmax;
+    top:6vmax
+}
+.speedDailIcon{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.btn-primary{
+    background-color: $primary;
+}
+
+
+
+.greenColor{
+    color: #4caf50;
+   
+   
+}
+
+.redColor{
+   color: rgb(228, 21, 21)
+}
+
+
+.productReviewsFormHeading{
+    padding: 2vmax;
+    text-align: center;
+    margin-top: 2vmax;
+    color: rgba(0, 0, 0,0.488);
+    font-size: 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+        margin-left: 0.80vmax;
+        font-size: 2vmax;
+    }
+    
+
+}
+@media(max-width:1200px){
+  .slider{
+
+
+    div{
+        img{
+      
+          height: 40vh;
+        }
+    }
+  }
+}
+
+
+
+
+   
+
+
+ 

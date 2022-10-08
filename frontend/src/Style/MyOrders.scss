@@ -1,0 +1,73 @@
+@import 'Variable.scss';
+.TablePage{
+
+    height: "100%";
+    width: '100vw';
+    max-width: 100%;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#headingMyOrders{
+    text-align: center;
+    font-size: 1.2vmax;
+    background-color: rgba(44,44, 44);
+    color: rgba(255, 255, 255);
+    padding: 0.5vmax;
+    font-family: $font1;
+
+}
+.TableGrid{
+    background-color: $white;
+    a{
+        color: $primary;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            color: $hover;
+        }
+    }
+    button{
+      color: rgb(228, 21, 21);
+      transition: all 0.3s ease-in-out;
+      &:hover{
+          color: rgb(128, 9, 9);;
+      }
+    }
+ 
+}
+.orderTable div{
+    font-family: $font2;
+    border: none;
+
+}
+.MuiDataGrid-columnHeader{
+   background-color: rgba(0, 0, 0,0.687);
+   padding: 1vmax !important;
+   font-weight: bold;
+
+   color: white;
+
+}
+.MuiDataGrid-iconSeparator{
+    display: none !important;
+}
+@media screen and (max-width: 600px){
+    
+    #headingMyOrders{
+        font-size: 2.3vmax;
+        padding: 4vw;
+    }
+    .MuiDataGrid-columnHeader{
+        padding: 20px !important;
+    }
+    .MuiDataGrid-columnHeader div{
+      font-size: 5vw;
+      font-family: $font1;
+    }
+    .orderTable div{
+        font-size: 4vw;
+        font-family: $font1;
+    }
+}
+    

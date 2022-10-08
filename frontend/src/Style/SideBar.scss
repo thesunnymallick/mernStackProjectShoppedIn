@@ -1,0 +1,35 @@
+@import 'Variable.scss';
+.sidebar{
+    background-color:$white ;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0rem;
+    width: 20%;
+
+
+    a{
+        text-decoration: none;
+        color: rgba(0, 0, 0,0.458);
+        padding: 2rem;
+        transition: all 0.3s ease-in-out;
+        font-weight: 400;
+        font-family: $font1;
+    
+        &:hover{
+            color: $primary;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            img{
+               height: 4vmax;
+            }
+            svg{
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+.MuiTypography-root{
+    background-color: white !important;
+}

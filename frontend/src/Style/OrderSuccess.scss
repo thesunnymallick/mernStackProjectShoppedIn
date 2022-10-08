@@ -1,0 +1,48 @@
+@import 'Variable.scss';
+.orderSuccess{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding: 10vmax;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    svg{
+        font-size: 7vmax;
+        color: #4caf50;
+    }
+    P{
+        font-size: 2vmax;
+        font-family: $font1;
+    }
+    a{
+        background-color: rgba(51,51, 51);
+        color: white;
+        margin: 2vmax;
+        padding: 1vmax 3vmax;
+        font-size: 1vmax;
+        text-decoration: none;
+        margin: 2vmax;
+        font-family: $font1;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+          background-color: rgb(33, 28, 28);
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .orderSuccess a{
+      padding: 3vw 6vw;
+      margin: 2vmax;
+
+      svg{
+        font-size: 20vw;
+      }
+      p{
+        margin: 2vmax;
+        font-size: 5vw;
+      }
+    }
+}

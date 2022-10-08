@@ -1,0 +1,147 @@
+@import 'Variable.scss';
+.footerSection{
+    background-color: $dark-blue;
+ 
+}
+.footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content{
+    padding: 0.20rem;
+ width: 20%;
+ margin: 1rem;
+
+ >span{
+    display: flex;
+     align-items: center;
+     
+     >p{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        color: $white;
+        margin-left: 0.10rem;
+        >img{
+           height: 50px;
+        }
+    
+     }
+ }
+>div{
+   padding: 0.30rem;
+  >p{
+    margin-top: 0.20rem;
+    color: $white;
+    font-size: small;
+  
+   
+  }
+  >.socialLink{
+     padding:1rem 0rem;
+ 
+     display: flex;
+   
+    >a{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        color: $white;
+        transition: all 0.3s ease-in-out;
+        >svg{
+            font-size: 1rem;
+        }
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+}
+
+}
+
+.content{
+    >span>h6{
+        font-size: 1rem;
+        color: $white;
+        font-weight: 500;
+        padding: 0.20rem;
+    }
+    >div{
+        display: flex;
+        flex-direction: column;
+      
+        >a{
+            margin-bottom: 0.40rem;
+            color: $white;
+            font-size: small;
+            padding: 0.23rem 0rem;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+.emailUs{
+    display: flex;
+    align-items: center;
+ 
+    color: $white;
+    >a{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: $white;
+        svg{
+            color: $white;
+            font-size: 1.30rem;
+            margin-left: 5px;
+        }
+        &:hover{
+            color: $primary;
+        }
+    }
+  
+}
+
+
+@media(max-width: 900px){
+    .content{
+        width: 30%;
+    }
+}
+@media(max-width: 600px){
+    .content{
+        width: 100%;
+    }
+}
+
+.footer{
+    background-color: $black;
+    padding: 16px;
+    >div{
+        display: flex;
+        justify-content: space-between;
+        >div{
+            color: $white;
+            font-size: small;
+        }
+    }
+}
+@media(max-width: 900px){
+    .footer{
+     >div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        >div{
+            text-align: center;
+             margin-top: 1rem;
+        }
+     }
+   
+    }
+}
