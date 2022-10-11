@@ -82,11 +82,17 @@
     .loginContent{
         div{
             svg{
-                transform:translateY(3.4vmax);
+                transform:translateY(4vmax);
    
             }
             >input{
-              height: 5.5vmax;
+           
+            
+           
+        
+                width: 100%;
+    
+
               font-size: 2vmax;
             }
         }
@@ -99,13 +105,13 @@
     .loginContent{
         div{
             svg{
-                transform:translateY(3vmax);
+                transform:translateY(4vmax);
    
             }
             >input{
          
               font-size: 2.5vmax;
-              width: 80vw;
+              width: 100%;
             }
         }
     }
