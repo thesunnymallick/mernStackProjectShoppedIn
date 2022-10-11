@@ -38,7 +38,7 @@ function Profile() {
                     <h4>Joined On</h4>
                     <h6>{String(user.createdAt).substring(0,10)}</h6>
                     <div>
-                    <Link>My Orders</Link>
+                    <Link to='/orders/me'>My Orders</Link>
                     <Link to='/update/password'>Change password</Link>
                     </div>
                 </div>

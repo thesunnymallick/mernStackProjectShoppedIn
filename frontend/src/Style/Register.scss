@@ -48,8 +48,8 @@
         }
 
         >input{
-          width: 40vmax;
-          height: 4vmax;
+          width: 40vw;
+          height: 8vh;
           margin-top: 1rem;
           padding-left: 2.5rem;
           border: none;
@@ -135,12 +135,13 @@
     .RegisterContent{
         div{
             svg{
-                transform:translateY(4.1vmax);
+                transform:translateY(3vmax);
    
             }
             >input{
-              height: 8vmax;
-              width: 30vmax;
+         
+              width: 80vw;
+           
               font-size: 2vmax;
    
             }

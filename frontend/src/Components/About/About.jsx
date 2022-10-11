@@ -19,9 +19,9 @@ function About() {
           <p>Every day, more than 1 million user visit our Shopped In website around the world.
              And they do so because our website are known  very fast, ease to use, and affordable product. Founded in 2022,</p>
              <div>
-             <a href="https://www.instagram.com/themallicksunny/" target="_blank" rel="noopener noreferrer">
+             <a href="https://www.linkedin.com/in/thesunnymallick/" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon/></a>
-            <a href="https://www.linkedin.com/in/thesunnymallick/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/themallicksunny/" target="_blank" rel="noopener noreferrer">
             <InstagramIcon/></a>
              </div>
         </div>

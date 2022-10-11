@@ -110,7 +110,17 @@ body{
         }
     }
   }
+  .Title-headding{
+    width: 50vw;
+  }
+
 }
+
+@media(max-width:600px){
+    .Title-headding{
+        width: 80vw;
+      }
+  }
 
 
 
