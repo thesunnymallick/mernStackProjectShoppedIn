@@ -65,3 +65,25 @@ Start the  backend
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thesunnymallick/)
 
 [![linkedin](https://img.shields.io/badge/instagram-e95950?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/themallicksunny/)
+
+
+## Demo
+### user screen
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(4).png?raw=true)
+
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(7).png?raw=true)
+
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(12).png?raw=true)
+
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(13).png?raw=true)
+
+### admin screen
+
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(19).png?raw=true)
+
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(30).png?raw=true)
+
+![App Screenshot](https://github.com/thesunnymallick/mernStackProjectShoppedIn/blob/main/Screenshot/Screenshot%20(28).png?raw=true)
+
+
+
